@@ -1267,7 +1267,7 @@ div.owl-controls, .owl-controls div {
 
 ----------------------------------------------------------------------------- */
 .news-bg-1 {
-  background-image: url(/assets/news-1.png);
+  background-image: url("https://news.harvard.edu/wp-content/uploads/2023/09/20230922_wondering_organic-1600x900.jpg");
 }
 
 .news-bg-2 {
@@ -1796,7 +1796,7 @@ a.video-play-btn {
   background-color: #f5f5f5;
   background-size: cover;
   padding: 110px 0 115px;
-  background-image: url(/assets/shop-banner.jpg);
+  background-image: url("https://news.harvard.edu/wp-content/uploads/2023/09/20230922_wondering_organic-1600x900.jpg");
 }
 
 
