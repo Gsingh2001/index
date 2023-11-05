@@ -25,6 +25,8 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 	<!-- responsive -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
 </head>
 
 <body>
@@ -277,17 +279,20 @@
 					<div class="footer-box subscribe">
 						<h2 class="widget-title">Subscribe</h2>
 						<p>Subscribe to our mailing list to get the latest updates.</p>
-						<form action="index.html">
-							<input type="email" placeholder="Email">
-							<button type="submit"><i class="fas fa-paper-plane"></i></button>
+						<form id="email-contact">
+							<label for="emailid">Email Address:</label>
+							<input type="email" id="emailid" placeholder="Enter your email" required>
+							<button type="submit-id" id="submit-id" >Submit</button>
 						</form>
+						<div class="alert" id="alert-id" style="display: none;">Thank you for submitting your email!</div>
+
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- end footer -->
-
+	<script src="fire-base.js"> </script>
 	<script src="https://kit.fontawesome.com/de81d8e009.js" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 	<!-- jquery -->
